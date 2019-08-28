@@ -124,6 +124,41 @@
           }
         }
       }
+    },
+    "NgxNZThailandSelector": {
+      "projectType": "library",
+      "root": "projects/ngx-nzthailand-selector",
+      "sourceRoot": "projects/ngx-nzthailand-selector/src",
+      "prefix": "NgxNZThailand",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-nzthailand-selector/tsconfig.lib.json",
+            "project": "projects/ngx-nzthailand-selector/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-nzthailand-selector/src/test.ts",
+            "tsConfig": "projects/ngx-nzthailand-selector/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-nzthailand-selector/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-nzthailand-selector/tsconfig.lib.json",
+              "projects/ngx-nzthailand-selector/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "NZThailandSelectorLibrary"
 }

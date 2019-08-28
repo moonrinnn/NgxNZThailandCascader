@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'NZThailandSelectorLibrary';
+  onCascaderChange(e) {
+  	console.log('onCascaderChange: ', e);
+  }
 }

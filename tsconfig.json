@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-nzthailand-selector": [
+        "dist/ngx-nzthailand-selector"
+      ],
+      "ngx-nzthailand-selector/*": [
+        "dist/ngx-nzthailand-selector/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
