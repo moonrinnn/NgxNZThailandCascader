@@ -40,3 +40,26 @@ You will need `ng-zorro-antd` styles:
 @import "~ng-zorro-antd/style/entry.less"; /* Import basic styles */
 @import "~ng-zorro-antd/cascader/style/entry.less"; /* Import styles of the component */
 ```
+### iConfig 
+| Key            | Type    | Description                |
+| ---------------| ------- | -------------------------- |
+| placeholder 	 | string  | placeholder text |
+| showSearch 	 | boolean  | can be typed for searching or not |
+| size 	 		 | 'small', 'default', 'large'  | the size of box |
+| disabled 	 	 | boolean  | disabled it or not |
+
+
+### @Inputs()
+
+| Input            | Type    | Required                   | Description                      |
+| ---------------- | ------- | -------------------------- | -------------------------------- |
+| subDistrictId    | number  | Optional                    | the sub-district id of Thailand |
+| config	       | number  | Optional, default: iConfig  | the configuration of style |
+
+
+
+### @Outputs()
+
+| Output           | Type       | Required | Description                                            |
+| ---------------- | ---------- | -------- | ------------------------------------------------------ |
+| onSelectedEvent  | Object<any> | **YES**  | emits filtered data list depending on the search term. |
