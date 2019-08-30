@@ -32,5 +32,7 @@ export interface iSubDistrict {
 
 export interface iConfig {
   placeholder?: string,
-  size?: 'small'|'default'|'large'
+  size?: 'small'|'default'|'large',
+  showSearch?: boolean,
+  disabled?: boolean
 }

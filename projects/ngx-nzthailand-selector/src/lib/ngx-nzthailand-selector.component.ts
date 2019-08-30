@@ -7,19 +7,25 @@ import SUB_DISTRICTS from '../lib-assets/subdistrict';
 
 @Component({
   selector: 'ngx-nzthailand-selector',
-  /*template: `<nz-cascader [(ngModel)]="model" 
-    [nzLoadData]="loadData" 
-    [nzPlaceHolder]="placeholder" 
-    [nzSize]="size"
-    (ngModelChange)="onChanges($event)"> </nz-cascader>
-  `,*/
   template: `<nz-cascader [(ngModel)]="model" 
     [nzOptions]="nzOptions"
     [nzPlaceHolder]="placeholder" 
     [nzSize]="size"
+    [nzDisabled]="isDisabled"
+    [nzShowSearch]="showSearch"
+    (nzVisibleChange)="onVisibleChange($event)"
     (ngModelChange)="onChanges($event)"> </nz-cascader>
   `,
-  styles: []
+  styles: [
+    `
+      .ant-cascader-picker {
+        width: 100%;
+      }
+      .ant-cascader-menu {
+        scroll-behavior: smooth;
+      }
+    `
+  ]
 })
 export class NgxNZThailandSelectorComponent implements OnInit {
   @Input('config') config: iConfig;
@@ -27,6 +33,8 @@ export class NgxNZThailandSelectorComponent implements OnInit {
   @Output('onSelectedEvent') onSelectedEvent: EventEmitter<any> = new EventEmitter<any>();
   placeholder: string = `Please select`;
   size: string = `default`;
+  showSearch: boolean = false;
+  isDisabled: boolean = false;
   model: any;
   nzOptions: any[] | null = null;
   constructor() { }
@@ -36,10 +44,11 @@ export class NgxNZThailandSelectorComponent implements OnInit {
     if(this.config){
       this.placeholder = this.config.placeholder || this.placeholder;
       this.size = this.config.size || this.size;
+      this.showSearch = this.config.showSearch || this.showSearch;
+      this.isDisabled = this.config.disabled || this.isDisabled;
     }
     
     if(this.subDistrictId){
-      console.log('subDistrictId:', this.subDistrictId);
       const districtId = +SUB_DISTRICTS.find(ele=>+ele.subdistrict_id === this.subDistrictId)['ref_district_id']
       const cityId = +DISTRICTS.find(ele=>+ele.district_id === districtId)['ref_city_id']
       this.model = [
@@ -51,6 +60,13 @@ export class NgxNZThailandSelectorComponent implements OnInit {
     this.nzOptions = this.loadOptions();
   }
 
+  scrollTo(elementId) {
+    var el = document.getElementById(elementId);
+    el.scrollIntoView(true);
+  }
+  onVisibleChange(isOpen: boolean) {
+    console.log(isOpen);
+  }
   onChanges(values: string[]): void {
     const subDistrictResult = SUB_DISTRICTS.find(ele=>+ele.subdistrict_id === +values[2]);
     const result: iThailandAddress = {

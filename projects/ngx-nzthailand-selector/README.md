@@ -2,23 +2,34 @@
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.3.
 
-## Code scaffolding
+## Installation instructions
 
-Run `ng generate component component-name --project NgxNZThailandSelector` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project NgxNZThailandSelector`.
-> Note: Don't forget to add `--project NgxNZThailandSelector` or else it will be added to the default project in your `angular.json` file. 
+Install ngx-nzthailand-selector from npm:
+Run `npm i ngx-nzthailand-selector --save`
+Install ngx-nzthailand-selector from yarn:
+Run `yarn add ngx-nzthailand-selector`
 
-## Build
+Add package to NgModule imports:
 
-Run `ng build NgxNZThailandSelector` to build the project. The build artifacts will be stored in the `dist/` directory.
+`import { NgxNZThailandSelectorModule } from 'ngx-nzthailand-selector';`
 
-## Publishing
+`@NgModule({
+  ...
+  imports: [NgxNZThailandSelectorModule, ...]
+  ...
+})`
 
-After building your library with `ng build NgxNZThailandSelector`, go to the dist folder `cd dist/ngx-nzthailand-selector` and run `npm publish`.
 
-## Running unit tests
+Add component to your page:
 
-Run `ng test NgxNZThailandSelector` to execute the unit tests via [Karma](https://karma-runner.github.io).
+`<ngx-nzthailand-selector 
+	[config]="{'placeholder': 'เลือก', 'showSearch': true}" 
+	[subDistrictId]="2496" 
+	(onSelectedEvent)="onCascaderChange($event)">
+</ngx-nzthailand-selector>`
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+You will need `ng-zorro-antd` styles:
+
+`@import "~ng-zorro-antd/style/entry.less"; /* Import basic styles */
+@import "~ng-zorro-antd/cascader/style/entry.less"; /* Import styles of the component */`

@@ -3,6 +3,6 @@
   "whitelistedNonPeerDependencies": ["ng-zorro-antd"],
   "dest": "../../dist/ngx-nzthailand-selector",
   "lib": {
-    "entryFile": "src/public-api.ts",
+    "entryFile": "src/public-api.ts"
   }
 }

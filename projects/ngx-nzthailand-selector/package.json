@@ -1,6 +1,24 @@
 {
   "name": "ngx-nzthailand-selector",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "author": "Kittisak Malaisanan",
+  "description": "To select Thailand address with antd design",
+  "repository": {
+  	"type": "git",
+  	"url": "https://github.com/moonrinnn/NgxNZThailandCascader.git"
+  },
+  "bugs": {
+  	"url": "https://github.com/moonrinnn/NgxNZThailandCascader/issues"
+  },
+  "homepage": "https://github.com/moonrinnn/NgxNZThailandCascader",
+  "keywords": [
+  	"angular",
+  	"ng-zorro-antd",
+  	"thailand",
+  	"select",
+  	"cascader"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^8.2.3",
     "@angular/core": "^8.2.3",
