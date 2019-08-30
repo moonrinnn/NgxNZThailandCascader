@@ -4,32 +4,39 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Installation instructions
 
-Install ngx-nzthailand-selector from npm:
+Install ngx-nzthailand-selector from npm: <br>
 Run `npm i ngx-nzthailand-selector --save`
-Install ngx-nzthailand-selector from yarn:
+
+Install ngx-nzthailand-selector from yarn: <br>
 Run `yarn add ngx-nzthailand-selector`
+
 
 Add package to NgModule imports:
 
-`import { NgxNZThailandSelectorModule } from 'ngx-nzthailand-selector';`
+```
+import { NgxNZThailandSelectorModule } from 'ngx-nzthailand-selector';
 
-`@NgModule({
+@NgModule({
   ...
   imports: [NgxNZThailandSelectorModule, ...]
   ...
-})`
-
+})
+```
 
 Add component to your page:
 
-`<ngx-nzthailand-selector 
+```
+<ngx-nzthailand-selector 
 	[config]="{'placeholder': 'เลือก', 'showSearch': true}" 
 	[subDistrictId]="2496" 
 	(onSelectedEvent)="onCascaderChange($event)">
-</ngx-nzthailand-selector>`
+</ngx-nzthailand-selector>
+```
 
 
 You will need `ng-zorro-antd` styles:
 
-`@import "~ng-zorro-antd/style/entry.less"; /* Import basic styles */
-@import "~ng-zorro-antd/cascader/style/entry.less"; /* Import styles of the component */`
+```
+@import "~ng-zorro-antd/style/entry.less"; /* Import basic styles */
+@import "~ng-zorro-antd/cascader/style/entry.less"; /* Import styles of the component */
+```
