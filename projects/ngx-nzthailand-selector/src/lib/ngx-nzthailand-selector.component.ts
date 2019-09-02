@@ -74,7 +74,6 @@ export class NgxNZThailandSelectorComponent implements OnInit {
     this.timeOut = setTimeout(()=>{
       let eleActiveList = document.querySelectorAll('.nzthailand-wrapper .ant-cascader-menu .ant-cascader-menu-item-active');
       eleActiveList.forEach(ele=>{
-        console.log(ele);
         ele.scrollIntoView(true);
       });
     }, 500);
