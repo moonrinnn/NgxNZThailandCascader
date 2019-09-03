@@ -1,12 +1,14 @@
 # NgxNZThailandSelector
 
 This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.3.
+Refer to component<a href="https://ng.ant.design/components/cascader/en" target="_blank">cascader</a> of ng-zorro-antd
+This package would save your time to develop cascader or autocomplete to filter Thailand's address, Let's do it!
 
 ## Installation instructions
 
 Install ngx-nzthailand-selector from npm: <br>
 Run `npm i ngx-nzthailand-selector --save`
-
+<br>
 Install ngx-nzthailand-selector from yarn: <br>
 Run `yarn add ngx-nzthailand-selector`
 
