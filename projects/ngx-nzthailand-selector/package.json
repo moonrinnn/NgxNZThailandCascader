@@ -1,8 +1,8 @@
 {
   "name": "ngx-nzthailand-selector",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "author": "Kittisak Malaisanan",
-  "description": "To select Thailand address with antd design",
+  "description": "To select Thailand's address with antd design",
   "repository": {
   	"type": "git",
   	"url": "https://github.com/moonrinnn/NgxNZThailandCascader.git"
@@ -16,7 +16,8 @@
   	"ng-zorro-antd",
   	"thailand",
   	"select",
-  	"cascader"
+  	"cascader",
+    "address"
   ],
   "license": "MIT",
   "peerDependencies": {
