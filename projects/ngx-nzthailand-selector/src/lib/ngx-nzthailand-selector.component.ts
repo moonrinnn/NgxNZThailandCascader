@@ -30,7 +30,7 @@ import SUB_DISTRICTS from '../lib-assets/subdistrict';
 })
 export class NgxNZThailandSelectorComponent implements OnInit {
   @Input('config') config: iConfig;
-  @Input('subDistrictId') subDistrictId: number;
+  @Input('subDistrictId') subDistrictId: number|string;
   @Output('onSelectedEvent') onSelectedEvent: EventEmitter<any> = new EventEmitter<any>();
   placeholder: string = `Please select`;
   size: string = `default`;
@@ -50,13 +50,13 @@ export class NgxNZThailandSelectorComponent implements OnInit {
       this.isDisabled = this.config.disabled || this.isDisabled;
     }
     
-    if(this.subDistrictId){
-      const districtId = +SUB_DISTRICTS.find(ele=>+ele.subdistrict_id === this.subDistrictId)['ref_district_id']
+    if(+this.subDistrictId){
+      const districtId = +SUB_DISTRICTS.find(ele=>+ele.subdistrict_id === +this.subDistrictId)['ref_district_id']
       const cityId = +DISTRICTS.find(ele=>+ele.district_id === districtId)['ref_city_id']
       this.model = [
         cityId,
         districtId,
-        this.subDistrictId
+        +this.subDistrictId
       ];  
     }
     this.nzOptions = this.loadOptions();
