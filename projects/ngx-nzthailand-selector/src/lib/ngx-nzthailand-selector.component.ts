@@ -80,6 +80,10 @@ export class NgxNZThailandSelectorComponent implements OnInit {
   }
 
   onChanges(values: string[]): void {
+
+    if (!values || !values.length) {
+      return;
+    }
     const subDistrictResult = SUB_DISTRICTS.find(ele=>+ele.subdistrict_id === +values[2]);
     const result: iThailandAddress = {
       city_id: values[0].toString(),
