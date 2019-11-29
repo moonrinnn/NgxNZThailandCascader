@@ -21,8 +21,8 @@
   ],
   "license": "MIT",
   "peerDependencies": {
-    "@angular/common": "^8.2.3",
-    "@angular/core": "^8.2.3",
-    "ng-zorro-antd": "^8.2.1"
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "ng-zorro-antd": "^8.5.2"
   }
 }

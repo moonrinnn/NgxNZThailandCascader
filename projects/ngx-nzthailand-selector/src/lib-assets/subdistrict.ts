@@ -7362,6 +7362,12 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7361","subdistrict_name":"ช้างเผือก","ref_district_id":"927","zipcode":"96220"},
 {"subdistrict_id":"7362","subdistrict_name":"จวบ","ref_district_id":"928","zipcode":"96130"},
 {"subdistrict_id":"7363","subdistrict_name":"บูกิต","ref_district_id":"928","zipcode":"96130"},
-{"subdistrict_id":"7364","subdistrict_name":"มะรือโบออก","ref_district_id":"928","zipcode":"96130"}
+{"subdistrict_id":"7364","subdistrict_name":"มะรือโบออก","ref_district_id":"928","zipcode":"96130"},
+{"subdistrict_id":"7365","subdistrict_name":"จตุจักร","ref_district_id":"30","zipcode":"10900"},
+{"subdistrict_id":"7366","subdistrict_name":"จอมพล","ref_district_id":"30","zipcode":"10900"},
+{"subdistrict_id":"7367","subdistrict_name":"จันทรเกษม","ref_district_id":"30","zipcode":"10900"},
+{"subdistrict_id":"7368","subdistrict_name":"เสนานิคม","ref_district_id":"30","zipcode":"10900"}, 
+{"subdistrict_id":"7369","subdistrict_name":"ในเมือง","ref_district_id":"198","zipcode":"30000"},
+{"subdistrict_id":"7370","subdistrict_name":"บ้านใหม่","ref_district_id":"198","zipcode":"30000"}
 ];
 export default SUB_DISTRICTS
