@@ -7369,6 +7369,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7368","subdistrict_name":"เสนานิคม","ref_district_id":"30","zipcode":"10900"}, 
 {"subdistrict_id":"7369","subdistrict_name":"ในเมือง","ref_district_id":"198","zipcode":"30000"},
 {"subdistrict_id":"7370","subdistrict_name":"บ้านใหม่","ref_district_id":"198","zipcode":"30000"},
-{"subdistrict_id":"7371","subdistrict_name":"วิชิต","ref_district_id":"817","zipcode":"83000"}
+{"subdistrict_id":"7371","subdistrict_name":"วิชิต","ref_district_id":"817","zipcode":"83000"},
+{"subdistrict_id":"7372","subdistrict_name":"วงศ์สว่าง","ref_district_id":"29","zipcode":"10800"},
 ];
 export default SUB_DISTRICTS
