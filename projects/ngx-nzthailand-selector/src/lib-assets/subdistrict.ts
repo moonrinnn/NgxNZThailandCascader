@@ -7371,5 +7371,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7370","subdistrict_name":"บ้านใหม่","ref_district_id":"198","zipcode":"30000"},
 {"subdistrict_id":"7371","subdistrict_name":"วิชิต","ref_district_id":"817","zipcode":"83000"},
 {"subdistrict_id":"7372","subdistrict_name":"วงศ์สว่าง","ref_district_id":"29","zipcode":"10800"},
+{"subdistrict_id":"7373","subdistrict_name":"นวลจันทร์","ref_district_id":"27","zipcode":"10230"},
 ];
 export default SUB_DISTRICTS
