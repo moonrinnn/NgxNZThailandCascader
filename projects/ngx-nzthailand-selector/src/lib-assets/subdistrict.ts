@@ -7382,5 +7382,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7381","subdistrict_name":"ปากน้ำ","ref_district_id":"142","zipcode":"21000"},
 {"subdistrict_id":"7382","subdistrict_name":"สะพานสอง","ref_district_id":"45","zipcode":"10310"},
 {"subdistrict_id":"7383","subdistrict_name":"คลองเจ้าคุณสิงห์","ref_district_id":"45","zipcode":"10310"},
+{"subdistrict_id":"7384","subdistrict_name":"บางนาเหนือ","ref_district_id":"47","zipcode":"10260"},
+{"subdistrict_id":"7385","subdistrict_name":"บางนาใต้","ref_district_id":"47","zipcode":"10260"},
 ];
 export default SUB_DISTRICTS
