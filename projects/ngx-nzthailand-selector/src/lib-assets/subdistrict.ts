@@ -7387,5 +7387,18 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7386","subdistrict_name":"อ่อนนุช","ref_district_id":"34","zipcode":"10250"},
 {"subdistrict_id":"7387","subdistrict_name":"พัฒนาการ","ref_district_id":"34","zipcode":"10250"},
 {"subdistrict_id":"7388","subdistrict_name":"กระบี่ใหญ่","ref_district_id":"801","zipcode":"81000"},
+{"subdistrict_id":"7389","subdistrict_name":"พญาไท","ref_district_id":"14","zipcode":"10400"},
+{"subdistrict_id":"7390","subdistrict_name":"ดาวคะนอง","ref_district_id":"15","zipcode":"10600"},
+{"subdistrict_id":"7391","subdistrict_name":"สำเหร่","ref_district_id":"15","zipcode":"10600"},
+{"subdistrict_id":"7392","subdistrict_name":"รัชดาภิเษก","ref_district_id":"26","zipcode":"10400"},
+{"subdistrict_id":"7393","subdistrict_name":"นวมินทร์","ref_district_id":"27","zipcode":"10240"},
+{"subdistrict_id":"7394","subdistrict_name":"สีกัน","ref_district_id":"36","zipcode":"10210"},
+{"subdistrict_id":"7395","subdistrict_name":"สนามบิน","ref_district_id":"36","zipcode":"10210"},
+{"subdistrict_id":"7396","subdistrict_name":"ราษฎร์พัฒนา","ref_district_id":"44","zipcode":"10240"},
+{"subdistrict_id":"7397","subdistrict_name":"ทับช้าง","ref_district_id":"44","zipcode":"10250"},
+{"subdistrict_id":"7398","subdistrict_name":"คลองบางพราน","ref_district_id":"50","zipcode":"10150"},
+{"subdistrict_id":"7399","subdistrict_name":"คลองบางบอน","ref_district_id":"50","zipcode":"10150"},
+{"subdistrict_id":"7400","subdistrict_name":"บางบอนเหนือ","ref_district_id":"50","zipcode":"10150"},
+{"subdistrict_id":"7401","subdistrict_name":"บางบอนใต้","ref_district_id":"50","zipcode":"10150"},
 ];
 export default SUB_DISTRICTS
