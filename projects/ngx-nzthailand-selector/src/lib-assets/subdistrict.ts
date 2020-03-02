@@ -7400,5 +7400,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7399","subdistrict_name":"คลองบางบอน","ref_district_id":"50","zipcode":"10150"},
 {"subdistrict_id":"7400","subdistrict_name":"บางบอนเหนือ","ref_district_id":"50","zipcode":"10150"},
 {"subdistrict_id":"7401","subdistrict_name":"บางบอนใต้","ref_district_id":"50","zipcode":"10150"},
+{"subdistrict_id":"7402","subdistrict_name":"บางพระ","ref_district_id":"160","zipcode":"23000"},
 ];
 export default SUB_DISTRICTS
