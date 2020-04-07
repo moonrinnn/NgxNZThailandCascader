@@ -7392,7 +7392,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7391","subdistrict_name":"สำเหร่","ref_district_id":"15","zipcode":"10600"},
 {"subdistrict_id":"7392","subdistrict_name":"รัชดาภิเษก","ref_district_id":"26","zipcode":"10400"},
 {"subdistrict_id":"7393","subdistrict_name":"นวมินทร์","ref_district_id":"27","zipcode":"10240"},
-{"subdistrict_id":"7394","subdistrict_name":"สีกัน","ref_district_id":"36","zipcode":"10210"},
+{"subdistrict_id":"7394","subdistrict_name":"ดอนเมือง","ref_district_id":"36","zipcode":"10210"},
 {"subdistrict_id":"7395","subdistrict_name":"สนามบิน","ref_district_id":"36","zipcode":"10210"},
 {"subdistrict_id":"7396","subdistrict_name":"ราษฎร์พัฒนา","ref_district_id":"44","zipcode":"10240"},
 {"subdistrict_id":"7397","subdistrict_name":"ทับช้าง","ref_district_id":"44","zipcode":"10250"},
@@ -7404,5 +7404,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7403","subdistrict_name":"ปากพนัง","ref_district_id":"789","zipcode":"80140"},
 {"subdistrict_id":"7404","subdistrict_name":"ท่าสุด","ref_district_id":"607","zipcode":"57100"},
 {"subdistrict_id":"7405","subdistrict_name":"แม่เหียะ","ref_district_id":"520","zipcode":"50100"},
+{"subdistrict_id":"7406","subdistrict_name":"บ้านเหนือ","ref_district_id":"726","zipcode":"71000"},
+{"subdistrict_id":"7407","subdistrict_name":"บ้านใต้","ref_district_id":"726","zipcode":"71000"},
 ];
 export default SUB_DISTRICTS
