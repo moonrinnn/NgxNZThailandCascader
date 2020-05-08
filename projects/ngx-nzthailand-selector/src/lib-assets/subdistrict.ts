@@ -7407,5 +7407,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7406","subdistrict_name":"บ้านเหนือ","ref_district_id":"726","zipcode":"71000"},
 {"subdistrict_id":"7407","subdistrict_name":"บ้านใต้","ref_district_id":"726","zipcode":"71000"},
 {"subdistrict_id":"7408","subdistrict_name":"บางพึ่ง","ref_district_id":"54","zipcode":"10130"},
+{"subdistrict_id":"7409","subdistrict_name":"หนองกร่าง","ref_district_id":"728","zipcode":"71220"},
 ];
 export default SUB_DISTRICTS
