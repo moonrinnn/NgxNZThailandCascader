@@ -599,9 +599,9 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"598","subdistrict_name":"ท่าหิน","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"599","subdistrict_name":"กกโก","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"600","subdistrict_name":"โก่งธนู","ref_district_id":"93","zipcode":"13240"},
-{"subdistrict_id":"601","subdistrict_name":"เขาพระงาม","ref_district_id":"93","zipcode":"15000"},
+{"subdistrict_id":"601","subdistrict_name":"เขาพระงาม","ref_district_id":"93","zipcode":"15160"},
 {"subdistrict_id":"602","subdistrict_name":"เขาสามยอด","ref_district_id":"93","zipcode":"15000"},
-{"subdistrict_id":"603","subdistrict_name":"โคกกระเทียม","ref_district_id":"93","zipcode":"15000"},
+{"subdistrict_id":"603","subdistrict_name":"โคกกระเทียม","ref_district_id":"93","zipcode":"15160"},
 {"subdistrict_id":"604","subdistrict_name":"โคกลำพาน","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"605","subdistrict_name":"โคกตูม","ref_district_id":"93","zipcode":"15210"},
 {"subdistrict_id":"606","subdistrict_name":"งิ้วราย","ref_district_id":"93","zipcode":"15000"},
@@ -610,7 +610,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"609","subdistrict_name":"ท่าแค","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"610","subdistrict_name":"ท่าศาลา","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"611","subdistrict_name":"นิคมสร้างตนเอง","ref_district_id":"93","zipcode":"15000"},
-{"subdistrict_id":"612","subdistrict_name":"บางขันหมาก","ref_district_id":"93","zipcode":"15000"},
+{"subdistrict_id":"612","subdistrict_name":"บางขันหมาก(ยกเว้นหมู่ที่ 11)","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"613","subdistrict_name":"บ้านข่อย","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"614","subdistrict_name":"ท้ายตลาด","ref_district_id":"93","zipcode":"15000"},
 {"subdistrict_id":"615","subdistrict_name":"ป่าตาล","ref_district_id":"93","zipcode":"15000"},
@@ -7411,5 +7411,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7410","subdistrict_name":"หัวเวียง","ref_district_id":"553","zipcode":"52000"},
 {"subdistrict_id":"7411","subdistrict_name":"สวนดอก","ref_district_id":"553","zipcode":"52100"},
 {"subdistrict_id":"7412","subdistrict_name":"สบตุ๋ย","ref_district_id":"553","zipcode":"52100"},
+{"subdistrict_id":"7413","subdistrict_name":"บางขันหมาก","ref_district_id":"93","zipcode":"15160"},
 ];
 export default SUB_DISTRICTS
