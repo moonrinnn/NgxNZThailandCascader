@@ -7411,6 +7411,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7410","subdistrict_name":"หัวเวียง","ref_district_id":"553","zipcode":"52000"},
 {"subdistrict_id":"7411","subdistrict_name":"สวนดอก","ref_district_id":"553","zipcode":"52100"},
 {"subdistrict_id":"7412","subdistrict_name":"สบตุ๋ย","ref_district_id":"553","zipcode":"52100"},
+{"subdistrict_id":"7413","subdistrict_name":"บางขันหมาก(หมู่ที่ 11)","ref_district_id":"93","zipcode":"15160"},
 {"subdistrict_id":"7414","subdistrict_name":"เสม็ด(หมู่ที่ 1-6)","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"7415","subdistrict_name":"ห้วยกะปิ(หมู่ที่ 4-5)","ref_district_id":"131","zipcode":"20130"},
 {"subdistrict_id":"7416","subdistrict_name":"บางเสร่(พิเศษ)","ref_district_id":"139","zipcode":"20251"},
