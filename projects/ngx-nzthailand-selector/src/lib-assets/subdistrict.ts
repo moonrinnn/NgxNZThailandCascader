@@ -935,8 +935,8 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"934","subdistrict_name":"คลองตำหรุ","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"935","subdistrict_name":"เหมือง","ref_district_id":"131","zipcode":"20130"},
 {"subdistrict_id":"936","subdistrict_name":"บ้านปึก","ref_district_id":"131","zipcode":"20130"},
-{"subdistrict_id":"937","subdistrict_name":"ห้วยกะปิ","ref_district_id":"131","zipcode":"20000"},
-{"subdistrict_id":"938","subdistrict_name":"เสม็ด","ref_district_id":"131","zipcode":"20130"},
+{"subdistrict_id":"937","subdistrict_name":"ห้วยกะปิ(หมู่ที่ 1-3, 6-7)","ref_district_id":"131","zipcode":"20000"},
+{"subdistrict_id":"938","subdistrict_name":"เสม็ด(หมู่ที่ 7-8)","ref_district_id":"131","zipcode":"20130"},
 {"subdistrict_id":"939","subdistrict_name":"อ่างศิลา","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"940","subdistrict_name":"สำนักบก","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"941","subdistrict_name":"บ้านบึง","ref_district_id":"132","zipcode":"20170"},
@@ -7412,5 +7412,9 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7411","subdistrict_name":"สวนดอก","ref_district_id":"553","zipcode":"52100"},
 {"subdistrict_id":"7412","subdistrict_name":"สบตุ๋ย","ref_district_id":"553","zipcode":"52100"},
 {"subdistrict_id":"7413","subdistrict_name":"บางขันหมาก(หมู่ที่ 11)","ref_district_id":"93","zipcode":"15160"},
+{"subdistrict_id":"7414","subdistrict_name":"เสม็ด(หมู่ที่ 1-6)","ref_district_id":"131","zipcode":"20000"},
+{"subdistrict_id":"7415","subdistrict_name":"ห้วยกะปิ(หมู่ที่ 4-5)","ref_district_id":"131","zipcode":"20130"},
+{"subdistrict_id":"7416","subdistrict_name":"บางเสร่(พิเศษ)","ref_district_id":"139","zipcode":"20251"},
+{"subdistrict_id":"7417","subdistrict_name":"สัตหีบ(ฐานทัพเรือ)","ref_district_id":"139","zipcode":"20182"},
 ];
 export default SUB_DISTRICTS
