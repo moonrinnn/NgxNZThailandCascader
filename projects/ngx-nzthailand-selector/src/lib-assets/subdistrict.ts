@@ -924,7 +924,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"923","subdistrict_name":"บางปลาสร้อย","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"924","subdistrict_name":"มะขามหย่ง","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"925","subdistrict_name":"บ้านโขด","ref_district_id":"131","zipcode":"20000"},
-{"subdistrict_id":"926","subdistrict_name":"แสนสุข","ref_district_id":"131","zipcode":"20000"},
+{"subdistrict_id":"926","subdistrict_name":"แสนสุข","ref_district_id":"131","zipcode":"20130"},
 {"subdistrict_id":"927","subdistrict_name":"บ้านสวน","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"928","subdistrict_name":"หนองรี","ref_district_id":"131","zipcode":"20000"},
 {"subdistrict_id":"929","subdistrict_name":"นาป่า","ref_district_id":"131","zipcode":"20000"},
@@ -7416,5 +7416,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7415","subdistrict_name":"ห้วยกะปิ(หมู่ที่ 4-5)","ref_district_id":"131","zipcode":"20130"},
 {"subdistrict_id":"7416","subdistrict_name":"บางเสร่(พิเศษ)","ref_district_id":"139","zipcode":"20251"},
 {"subdistrict_id":"7417","subdistrict_name":"สัตหีบ(ฐานทัพเรือ)","ref_district_id":"139","zipcode":"20182"},
+{"subdistrict_id":"7418","subdistrict_name":"แสนสุข(ม.บูรพา)","ref_district_id":"131","zipcode":"20131"},
 ];
 export default SUB_DISTRICTS
