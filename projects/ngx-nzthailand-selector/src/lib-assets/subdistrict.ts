@@ -7417,5 +7417,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7416","subdistrict_name":"บางเสร่(พิเศษ)","ref_district_id":"139","zipcode":"20251"},
 {"subdistrict_id":"7417","subdistrict_name":"สัตหีบ(ฐานทัพเรือ)","ref_district_id":"139","zipcode":"20182"},
 {"subdistrict_id":"7418","subdistrict_name":"แสนสุข(ม.บูรพา)","ref_district_id":"131","zipcode":"20131"},
+{"subdistrict_id":"7419","subdistrict_name":"หล่มสัก","ref_district_id":"707","zipcode":"67110"},
 ];
 export default SUB_DISTRICTS
