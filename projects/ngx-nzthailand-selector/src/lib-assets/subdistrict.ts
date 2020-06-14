@@ -4111,7 +4111,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"4110","subdistrict_name":"ช้างคลาน","ref_district_id":"520","zipcode":"50100"},
 {"subdistrict_id":"4111","subdistrict_name":"วัดเกต","ref_district_id":"520","zipcode":"50000"},
 {"subdistrict_id":"4112","subdistrict_name":"ช้างเผือก","ref_district_id":"520","zipcode":"50300"},
-{"subdistrict_id":"4113","subdistrict_name":"สุเทพ","ref_district_id":"520","zipcode":"50100"},
+{"subdistrict_id":"4113","subdistrict_name":"สุเทพ","ref_district_id":"520","zipcode":"50200"},
 {"subdistrict_id":"4114","subdistrict_name":"ป่าแดด","ref_district_id":"520","zipcode":"50100"},
 {"subdistrict_id":"4115","subdistrict_name":"หนองหอย","ref_district_id":"520","zipcode":"50000"},
 {"subdistrict_id":"4116","subdistrict_name":"ท่าศาลา","ref_district_id":"520","zipcode":"50000"},
