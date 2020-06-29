@@ -7429,5 +7429,8 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7428","subdistrict_name":"มะลิกา","ref_district_id":"529","zipcode":"50280"},
 {"subdistrict_id":"7429","subdistrict_name":"แม่แฝก","ref_district_id":"533","zipcode":"50290"},
 {"subdistrict_id":"7430","subdistrict_name":"นาดี","ref_district_id":"389","zipcode":"41000"},
+{"subdistrict_id":"7431","subdistrict_name":"เมืองใต้","ref_district_id":"270","zipcode":"33000"},
+{"subdistrict_id":"7432","subdistrict_name":"โพนเขวา","ref_district_id":"270","zipcode":"33000"},
+{"subdistrict_id":"7433","subdistrict_name":"สิ","ref_district_id":"276","zipcode":"33150"},
 ];
 export default SUB_DISTRICTS
