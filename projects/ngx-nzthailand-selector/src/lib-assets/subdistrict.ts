@@ -7432,5 +7432,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7431","subdistrict_name":"เมืองใต้","ref_district_id":"270","zipcode":"33000"},
 {"subdistrict_id":"7432","subdistrict_name":"โพนเขวา","ref_district_id":"270","zipcode":"33000"},
 {"subdistrict_id":"7433","subdistrict_name":"สิ","ref_district_id":"276","zipcode":"33150"},
+{"subdistrict_id":"7434","subdistrict_name":"บางมูลนาก","ref_district_id":"697","zipcode":"66120"},
 ];
 export default SUB_DISTRICTS
