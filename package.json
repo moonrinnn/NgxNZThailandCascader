@@ -1,6 +1,6 @@
 {
   "name": "nzthailand-selector-library",
-  "version": "1.1.24",
+  "version": "1.1.25",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
