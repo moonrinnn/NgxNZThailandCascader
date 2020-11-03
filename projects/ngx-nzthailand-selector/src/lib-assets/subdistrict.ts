@@ -7439,5 +7439,12 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7438","subdistrict_name":"เชียงงา","ref_district_id":"98","zipcode":"15110"},
 {"subdistrict_id":"7439","subdistrict_name":"บางพึ่ง(หมู่ 4-9)","ref_district_id":"98","zipcode":"15180"},
 {"subdistrict_id":"7440","subdistrict_name":"มหาโพธิ(หมู่ 4, 7, 13)","ref_district_id":"100","zipcode":"15250"},
+{"subdistrict_id":"7441","subdistrict_name":"เขาดิน","ref_district_id":"122","zipcode":"18170"},
+{"subdistrict_id":"7442","subdistrict_name":"หรเทพ(หมู่ 8)","ref_district_id":"123","zipcode":"18210"},
+{"subdistrict_id":"7443","subdistrict_name":"บางโขมด","ref_district_id":"123","zipcode":"18270"},
+{"subdistrict_id":"7444","subdistrict_name":"หนองแก","ref_district_id":"126","zipcode":"18120"},
+{"subdistrict_id":"7445","subdistrict_name":"ลำพญากลาง","ref_district_id":"128","zipcode":"30130"},
+{"subdistrict_id":"7446","subdistrict_name":"ลำสมพุง","ref_district_id":"128","zipcode":"30130"},
+{"subdistrict_id":"7447","subdistrict_name":"ห้วยบง(หมู่ 8-9)","ref_district_id":"130","zipcode":"18240"},
 ];
 export default SUB_DISTRICTS
