@@ -163,7 +163,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"162","subdistrict_name":"บางโปรง","ref_district_id":"51","zipcode":"10270"},
 {"subdistrict_id":"163","subdistrict_name":"เทศบาลบางปู","ref_district_id":"51","zipcode":"10270"},
 {"subdistrict_id":"164","subdistrict_name":"บางด้วน","ref_district_id":"51","zipcode":"10270"},
-{"subdistrict_id":"165","subdistrict_name":"เทศบาลบางเมือง","ref_district_id":"51","zipcode":"10270"},
+{"subdistrict_id":"165","subdistrict_name":"บางเมืองใหม่","ref_district_id":"51","zipcode":"10270"},
 {"subdistrict_id":"166","subdistrict_name":"เทพารักษ์","ref_district_id":"51","zipcode":"10270"},
 {"subdistrict_id":"167","subdistrict_name":"แพรกษาใหม่","ref_district_id":"51","zipcode":"10280"},
 {"subdistrict_id":"168","subdistrict_name":"บางบ่อ","ref_district_id":"52","zipcode":"10560"},
