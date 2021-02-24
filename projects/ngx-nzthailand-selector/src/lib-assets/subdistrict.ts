@@ -7446,5 +7446,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7445","subdistrict_name":"ลำพญากลาง","ref_district_id":"128","zipcode":"30130"},
 {"subdistrict_id":"7446","subdistrict_name":"ลำสมพุง","ref_district_id":"128","zipcode":"30130"},
 {"subdistrict_id":"7447","subdistrict_name":"ห้วยบง(หมู่ 8-9)","ref_district_id":"130","zipcode":"18240"},
+{"subdistrict_id":"7448","subdistrict_name":"หนองหลวง","ref_district_id":"666","zipcode":"63000"},
+{"subdistrict_id":"7449","subdistrict_name":"เชียงเงิน","ref_district_id":"666","zipcode":"63000"},
 ];
 export default SUB_DISTRICTS
