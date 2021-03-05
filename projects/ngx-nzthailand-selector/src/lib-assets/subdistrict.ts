@@ -6528,7 +6528,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"6527","subdistrict_name":"ตะกั่วป่า","ref_district_id":"813","zipcode":"82110"},
 {"subdistrict_id":"6528","subdistrict_name":"บางนายสี","ref_district_id":"813","zipcode":"82110"},
 {"subdistrict_id":"6529","subdistrict_name":"บางไทร","ref_district_id":"813","zipcode":"82110"},
-{"subdistrict_id":"6530","subdistrict_name":"บางม่วง","ref_district_id":"813","zipcode":"82110"},
+{"subdistrict_id":"6530","subdistrict_name":"บางม่วง(82110)","ref_district_id":"813","zipcode":"82110"},
 {"subdistrict_id":"6531","subdistrict_name":"ตำตัว","ref_district_id":"813","zipcode":"82110"},
 {"subdistrict_id":"6532","subdistrict_name":"โคกเคียน","ref_district_id":"813","zipcode":"82110"},
 {"subdistrict_id":"6533","subdistrict_name":"คึกคัก","ref_district_id":"813","zipcode":"82190"},
@@ -7448,5 +7448,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7447","subdistrict_name":"ห้วยบง(หมู่ 8-9)","ref_district_id":"130","zipcode":"18240"},
 {"subdistrict_id":"7448","subdistrict_name":"หนองหลวง","ref_district_id":"666","zipcode":"63000"},
 {"subdistrict_id":"7449","subdistrict_name":"เชียงเงิน","ref_district_id":"666","zipcode":"63000"},
+{"subdistrict_id":"7450","subdistrict_name":"บางม่วง(82190)","ref_district_id":"813","zipcode":"82190"},
 ];
 export default SUB_DISTRICTS
