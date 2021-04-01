@@ -3320,7 +3320,7 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"3319","subdistrict_name":"หินโงม","ref_district_id":"423","zipcode":"43000"},
 {"subdistrict_id":"3320","subdistrict_name":"บ้านเดื่อ","ref_district_id":"423","zipcode":"43000"},
 {"subdistrict_id":"3321","subdistrict_name":"ค่ายบกหวาน","ref_district_id":"423","zipcode":"43100"},
-{"subdistrict_id":"3322","subdistrict_name":"สองห้อง","ref_district_id":"423","zipcode":"43100"},
+{"subdistrict_id":"3322","subdistrict_name":"โพนสว่าง","ref_district_id":"423","zipcode":"43100"},
 {"subdistrict_id":"3323","subdistrict_name":"พระธาตุบังพวน","ref_district_id":"423","zipcode":"43100"},
 {"subdistrict_id":"3324","subdistrict_name":"หนองกอมเกาะ","ref_district_id":"423","zipcode":"43000"},
 {"subdistrict_id":"3325","subdistrict_name":"ปะโค","ref_district_id":"423","zipcode":"43000"},
