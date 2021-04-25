@@ -7449,5 +7449,9 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7448","subdistrict_name":"หนองหลวง","ref_district_id":"666","zipcode":"63000"},
 {"subdistrict_id":"7449","subdistrict_name":"เชียงเงิน","ref_district_id":"666","zipcode":"63000"},
 {"subdistrict_id":"7450","subdistrict_name":"บางม่วง(82190)","ref_district_id":"813","zipcode":"82190"},
+{"subdistrict_id":"7451","subdistrict_name":"หนองแสง","ref_district_id":"501","zipcode":"48000"},
+{"subdistrict_id":"7452","subdistrict_name":"นาเข","ref_district_id":"504","zipcode":"48140"},
+{"subdistrict_id":"7453","subdistrict_name":"โพนบก","ref_district_id":"510","zipcode":"48190"},
+{"subdistrict_id":"7454","subdistrict_name":"นาใน","ref_district_id":"510","zipcode":"48190"},
 ];
 export default SUB_DISTRICTS
