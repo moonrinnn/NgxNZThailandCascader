@@ -7455,5 +7455,6 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7454","subdistrict_name":"นาใน","ref_district_id":"510","zipcode":"48190"},
 {"subdistrict_id":"7455","subdistrict_name":"กุดจิก","ref_district_id":"215","zipcode":"30380"},
 {"subdistrict_id":"7456","subdistrict_name":"โนนแดง","ref_district_id":"221","zipcode":"30360"},
+{"subdistrict_id":"7457","subdistrict_name":"หลุมเข้า","ref_district_id":"651","zipcode":"61130"},
 ];
 export default SUB_DISTRICTS
