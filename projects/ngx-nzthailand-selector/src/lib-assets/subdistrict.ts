@@ -7456,5 +7456,9 @@ const SUB_DISTRICTS = [
 {"subdistrict_id":"7455","subdistrict_name":"กุดจิก","ref_district_id":"215","zipcode":"30380"},
 {"subdistrict_id":"7456","subdistrict_name":"โนนแดง","ref_district_id":"221","zipcode":"30360"},
 {"subdistrict_id":"7457","subdistrict_name":"หลุมเข้า","ref_district_id":"651","zipcode":"61130"},
+{"subdistrict_id":"7458","subdistrict_name":"โพแตง","ref_district_id":"73","zipcode":"13190"},
+{"subdistrict_id":"7459","subdistrict_name":"ตลาดเกรียบ","ref_district_id":"75","zipcode":"13160"},
+{"subdistrict_id":"7460","subdistrict_name":"ธนู(13000)","ref_district_id":"83","zipcode":"13000"},
+{"subdistrict_id":"7461","subdistrict_name":"ข้าวเม่า(13000)","ref_district_id":"83","zipcode":"13000"},
 ];
 export default SUB_DISTRICTS
